@@ -36,6 +36,7 @@ def num_in_rotated_sorted_array(arr, target_num):
     return -1
 
 arr = [4,5,6,7,0,1,2]
+# 3 is not in the list so output is -1.
 target_num = 3
 result = num_in_rotated_sorted_array(arr, target_num)
 if result !=-1:
